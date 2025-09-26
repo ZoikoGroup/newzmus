@@ -1,5 +1,5 @@
 :root {
-  --background: #ededed;
+  --background: #fff;
   --foreground: #171717;
 }
 
@@ -35,6 +35,9 @@ body {
   padding: 0;
   margin: 0;
 }
+hr {
+  opacity: 1.0;
+}
 
 a {
   color: #0a0a0a;
@@ -51,8 +54,8 @@ a {
   background-color: #E6E6E6 !important;
 }
 .headnav{
-  font-size: 17px !important;
-  font-weight: 700 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
   color: #000000 !important;
 }
 .headbar {
@@ -73,9 +76,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-.menulist a:hover {
-  color: #DF1E5A;
-}
 .nav-item.dropdownmg {
   position: inherit;
 }
@@ -87,17 +87,8 @@ a {
   width: 100%;
   --bs-dropdown-min-width: 14rem;
 }
-.dropdown-item:hover {
-  color: #DF1E5A !important;
-}
 .nav-item a {
   color: #0a0a0a;
-}
-.navbar-nav a:hover {
-  color: #DF1E5A;
-}
-.nav-item a:hover {
-  color: #DF1E5A !important;
 }
 .nav-item .active {
   color: #DF1E5A !important;
@@ -109,7 +100,7 @@ a {
 .bannertxt {
   position: absolute;
   left: 20px;
-  bottom: 100px;
+  top: 200px;
 }
 .txtred {
   color: #DF1E5A;
@@ -192,7 +183,6 @@ a {
 .pinkbox {
   width: 16%;
   max-height: 16%;
-  background-color: #DF1E5A1C;
   color: #0a0a0a;
   font-size: 16px;
   font-weight: 600;
@@ -207,6 +197,28 @@ a {
   font-size: 14px;
   text-align: center;
   padding: 15px;
+}
+.pinkbg {
+  background-color: #DF1E5A1C;
+  color: #0a0a0a;
+  font-size: 14px;
+  padding: 15px;
+}
+.txtorange {
+  color: #E43059;
+}
+.txtgrey {
+  font-size: 22px;
+  font-weight: lighter;
+  color: #555555;
+}
+.bg-green {
+  background-color: #1A8C44;
+  text-align: center;
+  color: #fff;
+}
+.bgwhite {
+  background-color: #fff;
 }
 .pinkbox p {
   padding: 10px 0;
@@ -260,7 +272,6 @@ a {
   font-weight: 700;
 }
 .green18 {
-  color: #0A5A35;
   font-size: 22px;
 }
 .txtgreen {
@@ -326,7 +337,7 @@ a {
   color: #171717;
 }
 .footerboxlarge {
-  background-color: #DDDDDD;
+  background-color: #DF1D5A;
   font-size: 18px;
   font-family: "Futura Md BT", Sans-serif !important;
   font-weight: 500;
@@ -342,7 +353,7 @@ a {
 }
 .footerboxlarge a {
   text-decoration: none;
-  color: #171717;
+  color: #ffffff;
 }
 .footerboxlarge a:hover {
   color: rgb(1, 77, 23);
@@ -418,6 +429,13 @@ a {
 }
 .byod-banner {
   background-image: url('/img/byod-banner.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.newhomebanner {
+  background-image: url('/img/home-banner/Unbeatable-VALUE-banner.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -569,9 +587,6 @@ a {
 .bannertxt {
   padding-left: 16%;
 }
-.custom-button {
-  padding: 8px 86px;
-}
 
 /* Mobile view CSS */
 @media (max-width: 600px) {
@@ -588,10 +603,6 @@ a {
   }
   .btnbox h1 {
     font-size: 16px;
-  }
-  .custom-button {
-    padding: 8px 16px;
-    font-size: 12px;
   }
   .bannertxt {
     padding-left: 1%;
