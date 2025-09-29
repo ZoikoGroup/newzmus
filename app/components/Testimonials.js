@@ -1,5 +1,5 @@
 "use client"
-import { Container, Row, Col, Carousel, CarouselItem } from "react-bootstrap";
+import { Container, Carousel, CarouselItem } from "react-bootstrap";
 import Image from "next/image";
 
 const Testimonials = () => {

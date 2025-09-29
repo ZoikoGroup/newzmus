@@ -4,6 +4,7 @@ import HomeSecA from "./components/HomeSecA";
 import Footer from "./components/Footer";
 import WhyChooseZoiko from "./components/WhyChooseZoiko";
 import Testimonials from "./components/Testimonials";
+import GetHelp from "./components/GetHelp";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <HomeBanner />
     <HomeSecA />
     <WhyChooseZoiko />
+    <GetHelp />
     <Testimonials />
     <Footer />
     </>
