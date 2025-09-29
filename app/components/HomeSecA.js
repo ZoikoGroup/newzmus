@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import CarouselPlans from "./CarouselPlans";
 
 const HomeSecA = () => {
@@ -29,31 +29,31 @@ const HomeSecA = () => {
                 </Row>
                 <div className="pinkboxwraper justify-content-center gap-4 mt-5">
                     <div className="pinkbox align-items-center">
-                        <Link href={"#"}>
+                        <Link href={"#"} style={{color:'#000'}}>
                             <Image src={"/img/icons/icon1-home.png"} width={80} height={80} alt="Icon 1" className="mx-auto d-block" />
                             <p>View Plans</p>
                         </Link>
                     </div>
                     <div className="pinkbox">
-                        <Link href={"#"}>
+                        <Link href={"#"} style={{color:'#000'}}>
                             <Image src={"/img/icons/icon2-home.png"} width={80} height={80} alt="Icon 2" className="mx-auto d-block" />
                             <p>Activate Your SIM</p>
                         </Link>
                     </div>
                     <div className="pinkbox">
-                        <Link href={"#"}>
+                        <Link href={"#"} style={{color:'#000'}}>
                             <Image src={"/img/icons/icon3-home.png"} width={80} height={80} alt="Icon 3" className="mx-auto d-block" />
                             <p>Switch &amp; Save</p>
                         </Link>
                     </div>
                     <div className="pinkbox">
-                        <Link href={"#"}>
+                        <Link href={"#"} style={{color:'#000'}}>
                             <Image src={"/img/icons/icon4-home.png"} width={80} height={80} alt="Icon 4" className="mx-auto d-block" />
                             <p>Special Deals</p>
                         </Link>
                     </div>
                     <div className="pinkbox">
-                        <Link href={"#"}>
+                        <Link href={"#"} style={{color:'#000'}}>
                             <Image src={"/img/icons/icon5-home.png"} width={80} height={80} alt="Icon 5" className="mx-auto d-block" />
                             <p>Redeem Cashback</p>
                         </Link>
@@ -95,7 +95,7 @@ const HomeSecA = () => {
                                 <p>Your number will transfer within 24 hours</p>
                             </Col>
                         </Row>
-                        <Image src={"/img/buttons/number.png"} width={248} height={50} className="my-4" alt="Keep Number" />
+                        <Button variant="danger" href="#" size="lg">Start Number Port</Button>
                     </Col>
                     <Col md={6} sm="12" xs="12">
                         <Image src={"/img/keep-number.png"} width={611} height={500} alt="Keep Number" />
