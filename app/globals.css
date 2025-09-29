@@ -207,6 +207,10 @@ a {
 .txtorange {
   color: #E43059;
 }
+.orangebg {
+  background-color: #F68A4C;
+  color: #fff;
+}
 .txtgrey {
   font-size: 22px;
   font-weight: lighter;

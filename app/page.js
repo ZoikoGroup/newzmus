@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import WhyChooseZoiko from "./components/WhyChooseZoiko";
 import Testimonials from "./components/Testimonials";
 import GetHelp from "./components/GetHelp";
+import PopularAddons from "./components/PopularAddons";
+import FantasticDeal from "./components/FantasticDeal";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
     <HomeBanner />
     <HomeSecA />
     <WhyChooseZoiko />
+    <PopularAddons />
+    <FantasticDeal />
     <GetHelp />
     <Testimonials />
     <Footer />

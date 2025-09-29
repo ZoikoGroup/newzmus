@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image";
-import Link from "next/link";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const GetHelp = () => {
     return (
