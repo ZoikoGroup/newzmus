@@ -8,9 +8,9 @@ export default function CarouselSimPlan () {
 
     return (
         <>
-        <Container fluid className="py-4 bglite">
+        <Container className="py-4 bglite">
             <h2 className="text-center py-4">Choose Your Zoiko Mobile Preferred Plan</h2>
-            <ul className="nav nav-tabs nav-justified tabhead p-1" role="tablist" style={{border:'1px solid black',borderRadius:'12px'}}>
+            <ul className="nav nav-tabs tabhead p-1 justify-content-center gap-3" role="tablist">
                 <li className="nav-item" role="presentation">
                     <Link className="nav-link active" id="justified-tab-0" data-bs-toggle="tab" href="#prepaid" role="tab" aria-controls="justified-tabpanel-0" aria-selected="true"> Prepaid Plans </Link>
                 </li>
@@ -25,7 +25,7 @@ export default function CarouselSimPlan () {
                 </li>
             </ul>
         </Container>
-        <Container fluid className="px-4 bglite">
+        <Container className="px-4 bglite">
             <div className="tab-content">
                 <div id="prepaid" className="tab-pane active" aria-current="page">
                     <Row>
@@ -33,7 +33,7 @@ export default function CarouselSimPlan () {
                             <div className="card p-2">
                                 <Image src={"/img/zoiko-lite.webp"} fluid alt='Zoiko Lite' />
                                 <div className="card-header">
-                                    Zoiko Lite 
+                                    Zoiko Flex 
                                 </div>
                                 <div className="card-body">
                                     <Row>
@@ -52,7 +52,7 @@ export default function CarouselSimPlan () {
                                         <li>EU Roaming: 15GB/1000 min/1000 Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -79,7 +79,7 @@ export default function CarouselSimPlan () {
                                         <li>Roaming 30GB/2000 min/2000 Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -106,7 +106,7 @@ export default function CarouselSimPlan () {
                                         <li>EU Roaming: 40GB/Unlimited Calls &amp; Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -140,7 +140,7 @@ export default function CarouselSimPlan () {
                                         <li>EU Roaming: 15GB/1000 min/1000 Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -167,7 +167,7 @@ export default function CarouselSimPlan () {
                                         <li>Roaming 30GB/2000 min/2000 Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -194,7 +194,7 @@ export default function CarouselSimPlan () {
                                         <li>EU Roaming: 40GB/Unlimited Calls &amp; Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -228,7 +228,7 @@ export default function CarouselSimPlan () {
                                         <li>EU Roaming: 15GB/1000 min/1000 Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -255,7 +255,7 @@ export default function CarouselSimPlan () {
                                         <li>Roaming 30GB/2000 min/2000 Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -282,7 +282,7 @@ export default function CarouselSimPlan () {
                                         <li>EU Roaming: 40GB/Unlimited Calls &amp; Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -316,7 +316,7 @@ export default function CarouselSimPlan () {
                                         <li>EU Roaming: 15GB/1000 min/1000 Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -343,7 +343,7 @@ export default function CarouselSimPlan () {
                                         <li>Roaming 30GB/2000 min/2000 Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>
@@ -370,7 +370,7 @@ export default function CarouselSimPlan () {
                                         <li>EU Roaming: 40GB/Unlimited Calls &amp; Texts</li>
                                     </ul>
                                     <hr className="separator" />
-                                    <div className="text-center"><Link href="#" className="btn btn-outline-danger px-4">View plan</Link> <Link href="#" className="btn btn-danger">Buy this plan</Link></div>
+                                    <div className="text-center d-flex flex-column"><Link href="#" className="btn btn-outline-danger px-4 mb-2">View Details</Link> <Link href="#" className="btn btn-danger">Buy This Plan</Link></div>
                                 </div>
                             </div>
                         </Col>

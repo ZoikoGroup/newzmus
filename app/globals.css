@@ -577,6 +577,9 @@ a {
 .nav-tabs .active {
   color: #DF1E5A !important;
 }
+.nav-tabs {
+  border-bottom: none;;
+}
 .faqcols {
   display: grid;
   grid-template-columns: 45% 45%;

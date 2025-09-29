@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Card, Col, Container, Row } from "react-bootstrap";
+import CarouselPlans from "./CarouselPlans";
 
 const HomeSecA = () => {
     return (
@@ -66,6 +67,7 @@ const HomeSecA = () => {
                 <p>Reliable Network Coverage at Low Prices | Free International Calls | Free High-Speed 5G Data</p>
             </Container>
         </Container>
+        <CarouselPlans />
         <Container fluid className="py-4 bgwhite">
             <Container className="py-4 my-4">
                 <Row className="align-items-center">
